@@ -1,0 +1,35 @@
+.row {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+.btn-group {
+  margin-top: 10px;
+}
+
+#compose-btn {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#menu-col {
+  display: none;
+}
+
+#nav-dropdown {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #menu-col {
+    display: block;
+  }
+
+  #nav-dropdown {
+    display: none !important;
+  }
+}
